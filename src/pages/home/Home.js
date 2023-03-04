@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { userAsync, newCourse, newCollege } from '../../store/extra-reducers/testSlice';
 import { useEffect } from 'react';
 
+// unit testing url - https://vaskort.medium.com/how-to-unit-test-your-custom-react-hook-with-react-testing-library-and-jest-8bdefafdc8a2
+
 function Home(props) {
     const { data, loading, course, college } = useSelector((state) => state.users);
     const dispatch = useDispatch();
