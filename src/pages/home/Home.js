@@ -3,7 +3,7 @@ import './Home.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { userAsync, newCourse, newCollege } from '../../store/extra-reducers/testSlice';
 import { useEffect } from 'react';
-
+// https://blog.logrocket.com/test-react-hooks/
 // unit testing url - https://vaskort.medium.com/how-to-unit-test-your-custom-react-hook-with-react-testing-library-and-jest-8bdefafdc8a2
 
 function Home(props) {
